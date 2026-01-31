@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or concept, please cite it as below."
+authors:
+- family-names: "Zanbouri"
+  given-names: "Kouros"
+title: "FloodGuard AI: Agentic Flood Defense System"
+version: 1.0.0
+date-released: 2026-01-31
+url: "https://github.com/KourosZanbouri/FloodGuardAI"
+copyright: "© 2026 Kouros Zanbouri"
+license: "All-Rights-Reserved"

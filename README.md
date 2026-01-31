@@ -1,3 +1,21 @@
+> ⚠️ **LEGAL NOTICE: INTELLECTUAL PROPERTY & COPYRIGHT**
+>
+> **© 2026 Kouros Zanbouri. All Rights Reserved.**
+>
+> This software, "FloodGuard AI," and its associated documentation, concepts, and algorithms are the exclusive intellectual property of the author.
+>
+> **Access Condition:**
+> This repository is made public solely for the purpose of evaluation by the judges of the **AI for Ireland Quest**.
+>
+> **Restrictions:**
+> 1. **No Commercial Use:** You may not use this code, concept, or any derivative works for commercial purposes, startup formation, or funding proposals without explicit written permission.
+> 2. **No Unauthorized Copying:** Redistribution or modification of this code is strictly prohibited.
+> 3. **Prior Art:** This repository serves as a timestamped public disclosure of the "Agentic Flood Defense" concept, establishing Prior Art under Irish and EU Intellectual Property Law.
+>
+> For licensing inquiries or partnership proposals, please contact: k.zanbouri [AT] cs [DOT] ucc [DOT] ie
+
+---
+
 
 # 🛡️ FloodGuard AI: Ireland's First Agentic Flood Defense System
 
@@ -180,3 +198,6 @@ _Pinpointing exact impact zones like Oliver Plunkett St and Mercy Hospital._
 ## 🏆 Why FloodGuard?
 
 Current tools tell you **what is happening**. FloodGuard tells the infrastructure **what to do**. It is the difference between watching a disaster and managing it.
+
+
+
