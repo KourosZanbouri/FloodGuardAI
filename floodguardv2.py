@@ -48,6 +48,8 @@ class FloodAgentFinal:
             logs["infra"].append(f"[{t}] 🟢 SYSTEM CHECK -> Inniscarra Dam SCADA: Connection Active.")
             logs["infra"].append(f"[{t}] 🟢 SYSTEM CHECK -> Uisce Éireann Sensors: Quality Optimal.")
             logs["sectors"].append(f"[{t}] 🟢 MONITORING -> Business Zone: No threats detected.")
+            logs["sectors"].append(f"[{t}] 🟢 MONITORING -> Community Alerts: Standby Mode.")
+            logs["emergency"].append(f"[{t}] 🟢 MONITORING -> HSE Vulnerable Register: 142 Registered in Zone A")
 
         elif status == "High Risk": # STORM BABET SCENARIO
             # INFRASTRUCTURE (The AI takes control)
@@ -55,9 +57,14 @@ class FloodAgentFinal:
             logs["infra"].append(f"[{t}] 🤖 AGENT ACTION -> Cork City Council: Auto-deployed 'AquaDam' barriers (Morrison's Island).")
             logs["infra"].append(f"[{t}] 🤖 AGENT ACTION -> SCATS Traffic Control: Overrode signals to RED at Lee Road.")
             
+
+            
             # EMERGENCY
             logs["emergency"].append(f"[{t}] 🤖 AGENT ACTION -> Civil Defence HQ: Dispatched SMS Mobilization Order (Unit 4).")
             logs["emergency"].append(f"[{t}] 🤖 AGENT ACTION -> An Garda Síochána: Updated Digital Road Signs 'FLOOD AHEAD - DIVERT'.")
+            logs["emergency"].append(f"[{t}] 🤖 AGENT ACTION -> Public Health Nurse: Automated call list generated for check-ins.")
+            logs["emergency"].append(f"[{t}] 🤖 AGENT ACTION -> HSE Database Query: Identified 12 'Category A' (Mobility Impaired) in Flood Zone.")
+
             
             # SECTORS (Specific Shop Owner Calls)
             logs["sectors"].append(f"[{t}] 🤖 AGENT ACTION -> Twilio API: Voice Call initiated to Shop Owners (Zone A).")
@@ -73,6 +80,8 @@ class FloodAgentFinal:
             logs["emergency"].append(f"[{t}] 🤖 AGENT ACTION -> DEFENCE FORCES: Secure Link established. Requesting 6x6 Troop Carriers.")
             logs["emergency"].append(f"[{t}] 🤖 AGENT ACTION -> Fire Brigade Control: Re-routed High Volume Pumps to City Hall.")
             logs["emergency"].append(f"[{t}] 🤖 AGENT ACTION -> HSE Operations: Triage Tent location identified at UCC (Higher Ground).")
+            logs["emergency"].append(f"[{t}] 📍 TARGET: Eircode T12 XY44 (Patient: Oxygen Dependent / 3rd Floor).")
+            logs["emergency"].append(f"[{t}] 📍 TARGET: Eircode T12 AB99 (Patient: High-Risk Pregnancy).")
             
             # SECTORS
             logs["sectors"].append(f"[{t}] 🤖 AGENT ACTION -> Blockchain Ledger: 'Force Majeure' event recorded for Instant Payout.")
