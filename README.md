@@ -50,7 +50,32 @@ Instead of a dashboard that waits for you, FloodGuard is an **Autonomous Agent**
     
 3.  **ACTS:** Triggers real-world protocols via API simulations (SCADA for dams, Twilio for SMS alerts, Blockchain for insurance).
     
+----------
+### **Technical Novelty: The Shift to Agentic AI**
 
+**1. From Passive Dashboard to Closed-Loop Control** The primary innovation of FloodGuard is the architectural shift from a "Human-in-the-Loop" visualization tool to a **"Human-on-the-Loop" autonomous agent**.
+
+-   **Current Standard:** Traditional systems (like FloodInfo.ie) are **Open-Loop**. They ingest data and display it, relying entirely on a human operator to notice the anomaly, interpret the risk, and manually initiate a response protocol.
+    
+-   **FloodGuard Novelty:** We implemented a **Closed-Loop Control System**. The Agent ingests data (Sense), evaluates risk against a dynamic state machine (Think), and autonomously triggers actuators (Act). This reduces the "Reaction Gap" from hours to milliseconds, creating a self-correcting defense system that operates even if human operators are incapacitated or overwhelmed.
+    
+
+**2. The "Digital Bridge" Architecture (Cross-Domain Interoperability)** FloodGuard creates a novel interoperability layer that bridges the gap between **Modern Cloud AI** and **Legacy Critical Infrastructure**.
+
+-   We developed a unified control plane that translates high-level AI decisions (e.g., "Mitigate Risk in Zone A") into specific, low-level protocols for disparate systems that currently do not talk to each other:
+    
+    -   **Industrial:** Simulating SCADA handshake protocols for Dam Sluice Gates.
+        
+    -   **Analogue Emergency:** Synthesizing digital text alerts into **TETRA Radio Voice Audio** for injection into the National Digital Radio Service (NDRS).
+        
+    -   **Financial:** Triggering **Smart Contracts** on a blockchain ledger for Parametric Insurance payouts.
+        
+
+**3. Socially Aware Resource Optimization** Most flood models optimize for hydraulic flow or economic loss. FloodGuard introduces a **Human-Centric Optimization Layer**.
+
+-   We integrated a combinatorial optimization algorithm (solving the **Knapsack Problem**) to manage scarce resources (e.g., sandbags, ambulances).
+    
+-   Unlike standard logistics engines, our "Guardian Agent" weights the objective function based on **Social Vulnerability Data** (HSE Registers for oxygen dependency, mobility impairment), ensuring that the AI prioritizes the preservation of human life over property value. This creates an "Ethical AI" framework for crisis management.
 ----------
 
 ## 🏗️ System Architecture
@@ -68,41 +93,14 @@ Instead of a dashboard that waits for you, FloodGuard is an **Autonomous Agent**
 
 The system is divided into three active response layers:
 
-**Layer**
-
-**Target System**
-
-**Agent Action (Autonomous)**
-
-**L1: Infrastructure**
-
-**ESB Inniscarra Dam**
-
-_Pre-emptive Discharge:_ Releases water 12hrs before a storm to create reservoir capacity.
-
-**Cork City Council**
-
-_Traffic Control:_ Overrides SCATS signals to RED on flooded roads (Lee Rd) and reroutes traffic.
-
-**L2: Emergency**
-
-**Civil Defence**
-
-_Resource Optimization:_ Solves the "Knapsack Problem" to allocate sandbags to critical zones (Hospital > Park).
-
-**Uisce Éireann**
-
-_Water Security:_ Detects turbidity and auto-drafts "Boil Water Notices" or deploys tankers.
-
-**L3: Economy**
-
-**SME Retail**
-
-_Targeted Alerting:_ Calls specific shop owners via Twilio API to deploy flood gates.
-
-**Insurance**
-
-_Parametric Payout:_ Triggers a "Force Majeure" blockchain event for instant cash relief.
+| Layer | Target System | Agent Action (Autonomous) |
+| :--- | :--- | :--- |
+| **L1: Infrastructure** | **ESB Inniscarra Dam** | *Pre-emptive Discharge:* Releases water 12hrs before a storm to create reservoir capacity. |
+| | **Cork City Council** | *Traffic Control:* Overrides SCATS signals to RED on flooded roads (Lee Rd) and reroutes traffic. |
+| **L2: Emergency** | **Civil Defence** | *Resource Optimization:* Solves the "Knapsack Problem" to allocate sandbags to critical zones (Hospital > Park). |
+| | **Uisce Éireann** | *Water Security:* Detects turbidity and auto-drafts "Boil Water Notices" or deploys tankers. |
+| **L3: Economy** | **SME Retail** | *Targeted Alerting:* Calls specific shop owners via Twilio API to deploy flood gates. |
+| | **Insurance** | *Parametric Payout:* Triggers a "Force Majeure" blockchain event for instant cash relief. |
 
 ----------
 
