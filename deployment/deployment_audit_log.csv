@@ -1,0 +1,6 @@
+2026-03-10 00:49:11,CRITICAL_INFRA: COMMAND SENT 'EMERGENCY_DUMP_100%'
+2026-03-10 00:49:12,CRITICAL_EMERGENCY: Secure Link established. Requesting 6x6 Troop Carriers
+2026-03-10 10:36:22,INFRA: COMMAND SENT 'Open_Discharge_20%'
+2026-03-10 10:36:22,EMERGENCY: Dispatched SMS Mobilization Order (Unit 4)
+2026-03-12 10:01:54,INFRA: COMMAND SENT 'Open_Discharge_20%'
+2026-03-12 10:01:54,EMERGENCY: Dispatched SMS Mobilization Order (Unit 4)
